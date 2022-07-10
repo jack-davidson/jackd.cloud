@@ -1,0 +1,24 @@
+nav {
+    height: 8vh;
+    font-size: 2rem;
+    padding: 1rem;
+
+    background-color: var(--dark-purple);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
