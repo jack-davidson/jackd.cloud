@@ -50,3 +50,7 @@ section {
     margin-left: auto;
     margin-right: auto;
 }
+
+section p {
+    padding-left: 5vw;
+}
