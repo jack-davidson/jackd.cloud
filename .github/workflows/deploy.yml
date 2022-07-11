@@ -2,7 +2,6 @@ name: deploy
 on: [push]
 jobs:
   deploy:
-    name: deploy
     runs-on: ubuntu-latest
     steps:
     - name: connect to ${{ secrets.HOST }} and update source directory (/var/www/jackd.cloud)
