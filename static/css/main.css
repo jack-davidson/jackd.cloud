@@ -39,20 +39,6 @@ section {
     font-size: 4rem;
 }
 
-.social {
-    position: absolute;
-    margin-bottom: 30px;
-    bottom: 0;
-    width: 100vw;
-    font-size: 5rem;
-    text-align: center;
-}
-
-.social a {
-    text-decoration: none;
-    color: black;
-}
-
 @media screen and (max-width: 600px) {
     .intro {
         font-size: 3rem;
