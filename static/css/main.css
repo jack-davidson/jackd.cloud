@@ -18,16 +18,13 @@ body {
     margin: 0;
 }
 
-section {
+.intro {
     width: 90vw;
-    margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
-}
 
-.intro {
-    font-size: 5rem;
     text-align: center;
+    font-size: 3rem;
 }
 
 .intro p {
@@ -35,13 +32,9 @@ section {
     line-height: 6rem;
 }
 
-.contact {
-    font-size: 4rem;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .intro {
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: center;
     }
 }
