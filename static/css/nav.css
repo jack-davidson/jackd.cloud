@@ -1,7 +1,6 @@
 nav {
-    height: 8vh;
     font-size: 1.8rem;
-    padding: 1rem;
+    padding: 2rem;
 
     background-color: var(--dark-purple);
     color: white;

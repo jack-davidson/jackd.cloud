@@ -19,15 +19,43 @@ body {
 }
 
 section {
-    font-size: 2rem;
-    width: 80vw;
+    width: 90vw;
     margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
+}
+
+.intro {
+    font-size: 5rem;
     text-align: center;
 }
 
-section p {
+.intro p {
     word-break: break-all;
-    line-height: 3rem;
+    line-height: 6rem;
+}
+
+.contact {
+    font-size: 4rem;
+}
+
+.social {
+    position: absolute;
+    margin-bottom: 30px;
+    bottom: 0;
+    width: 100vw;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+        font-size: 3rem;
+        text-align: center;
+    }
 }
