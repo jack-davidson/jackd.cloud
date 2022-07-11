@@ -24,9 +24,10 @@ section {
     margin-top: 10vh;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 section p {
+    word-break: break-all;
     line-height: 3rem;
-    padding-left: 5vw;
 }
