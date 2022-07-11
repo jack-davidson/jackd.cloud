@@ -22,28 +22,3 @@ nav a {
     color: white;
     text-decoration: none;
 }
-
-.hamburger {
-    display: none;
-    border: black solid 1px;
-    background: white;
-    cursor: pointer;
-}
-
-.closeIcon {
-    display: none;
-}
-
-@media screen and (max-width: 460px) {
-    nav {
-        font-size: 1.5rem;
-    }
-
-    nav ul {
-        display: none;
-    }
-
-    nav .hamburger {
-        display: block;
-    }
-}
