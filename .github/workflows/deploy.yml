@@ -11,4 +11,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
-        script: whoami
+        script: |
+          cd /var/www/jackd.cloud
+          git clone --rebase
