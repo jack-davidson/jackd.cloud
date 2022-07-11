@@ -4,7 +4,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: connect to ${{ secrets.HOST }} and update source directory (/var/www/jackd.cloud)
+      - name: connect to server and update source directory
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
