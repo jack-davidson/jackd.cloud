@@ -18,6 +18,11 @@ body {
     margin: 0;
 }
 
+em {
+    color: #FF247D;
+    font-style: normal;
+}
+
 .intro {
     width: 90vw;
     margin-left: auto;
