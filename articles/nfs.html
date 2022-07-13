@@ -45,21 +45,47 @@
     <nav>
       <a href="/index.html">jackd.cloud</a>
     </nav>
-    <section>
+    <header>
       <h1>
         nfs: basic guide
       </h1>
-      <p>
+      <h2>
         Setting up UNIX's favorite distributed filesystem.
+      </h2>
+    </header>
+    <section>
+      <h1>Client</h1>
+      <h2>
+      Mounting an export
+      </h2>
+      <p>
+      From host <code>192.168.1.2</code>, mount the export <code>/srv/nfs</code> at <code>/mnt/nfs/</code> with read-write
+        permissions.
+        <pre>
+          <code>
+            192.168.1.2:/srv/nfs	/mnt/nfs	nfs      rw    0       0
+          </code>
+        </pre>
+      </p>
+      <h1>Server</h1>
+
+      <h2>Setting up an Export</h2>
+      <p>
+        Export <code>/srv/nfs</code> to all hosts (<code>*</code>) with read-write permissions.
+
+        In `/etc/exports`:
+        <pre>
+          <code>
+            /srv/nfs       *(rw,sync,no_subtree_check)
+          </code>
+        </pre>
+        Then, Refresh nfs's exports
+        <pre>
+          <code>
+            sudo exportfs -a
+          </code>
+        </pre>
       </p>
     </section>
-    <div class="dark">
-      <section>
-        <h1>Articles</h1>
-        <ul>
-          <li><a href="/articles/nfs.html">nfs: basic guide</a></li>
-        </ul>
-      </section>
-    </div>
   </body>
 </html>

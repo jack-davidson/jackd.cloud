@@ -19,14 +19,32 @@ body {
     margin: 0;
 }
 
-section {
+header {
     font-family: 'Inter', sans-serif;
-    width: 70vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
     line-height: 1.5;
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 5vh;
     padding-top: 5vh;
+}
+
+section {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    padding: 20vw;
+    padding-top: 5vh;
+}
+
+section h1 {
+    font-size: 5rem;
+}
+
+section h2 {
+    font-size: 3rem;
+}
+
+section h3 {
+    font-size: 2rem;
 }
 
 h1 {
@@ -35,11 +53,18 @@ h1 {
     margin-bottom: 0;
 }
 
+header h2 {
+    color: var(--smooth-grey);
+    font-weight: 400;
+    letter-spacing: -.025em;
+    font-size: 2rem;
+}
+
 p {
     color: var(--smooth-grey);
     letter-spacing: -.025em;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 ul {
@@ -47,6 +72,30 @@ ul {
     grid-template-columns: 1fr 1fr;
     font-size: 2rem;
     font-family: 'JetBrains Mono', monospace;
+}
+
+code {
+    font-family: 'JetBrains Mono', monospace;
+    background: #ffeff0;
+    word-wrap: break-word;
+    box-decoration-break: clone;
+    padding: .1rem .3rem .2rem;
+    border-radius: .2rem;
+}
+
+pre {
+    padding: 0px;
+}
+
+pre code {
+    font-size: 0.9rem;
+    display: block;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    max-width: 100%;
+    min-width: 100px;
+    padding: 0;
 }
 
 em {
@@ -65,9 +114,13 @@ em {
 
 @media screen and (max-width: 900px) {
     section {
-        width: 80vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
-
+    header {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
     section h1 {
         font-size: 4rem;
     }
