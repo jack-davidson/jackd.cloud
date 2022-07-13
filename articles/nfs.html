@@ -59,8 +59,11 @@
       Mounting an export
       </h2>
       <p>
-      From host <code>192.168.1.2</code>, mount the export <code>/srv/nfs</code> at <code>/mnt/nfs/</code> with read-write
+        From host <code>192.168.1.2</code>, mount the export <code>/srv/nfs</code> at <code>/mnt/nfs/</code> with read-write
         permissions.
+        <br>
+        <br>
+        In <code>/etc/fstab</code>:
         <pre>
           <code>
             192.168.1.2:/srv/nfs	/mnt/nfs	nfs      rw    0       0
@@ -73,7 +76,9 @@
       <p>
         Export <code>/srv/nfs</code> to all hosts (<code>*</code>) with read-write permissions.
 
-        In `/etc/exports`:
+        <br>
+        <br>
+        In <code>/etc/exports</code>:
         <pre>
           <code>
             /srv/nfs       *(rw,sync,no_subtree_check)
