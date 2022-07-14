@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    font-family: 'Inter';
+    font-family: monospace;
     padding-left: 20vw;
     padding-right: 20vw;
     font-weight: 700;
