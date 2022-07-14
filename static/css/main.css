@@ -117,10 +117,16 @@ em {
         padding-left: 5vw;
         padding-right: 5vw;
     }
+
     header {
         padding-left: 10vw;
         padding-right: 10vw;
     }
+
+    header h1 {
+        font-size: 4rem;
+    }
+
     section h1 {
         font-size: 4rem;
     }
