@@ -1,7 +1,7 @@
 :root {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.025em;
-    line-height: 0.9;
+    line-height: 1.1;
 
     /* CSS HEX */
     --eton-blue: #86cb92;
@@ -32,7 +32,7 @@ header {
 
 section {
     margin-top: 5vh;
-    padding: 20vw;
+    padding: 20vh;
 }
 
 section h1 {
@@ -110,6 +110,10 @@ em {
     color: white;
 }
 
+.block {
+    height: 80vh;
+}
+
 @media screen and (max-width: 900px) {
     section {
         padding-left: 5vw;
@@ -122,7 +126,7 @@ em {
     }
 
     header h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     section h1 {
