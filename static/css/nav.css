@@ -3,10 +3,7 @@ nav {
     font-size: 1.8rem;
     padding: 2rem;
 
-    /*
-    background-color: var(--dark-purple);
-    */
-    color: #6b7280;
+    color: var(--light-grey);
 
     display: flex;
     justify-content: space-between;
@@ -26,5 +23,5 @@ nav a {
 }
 
 nav a:hover {
-    color: #343f44;
+    color: var(--smooth-grey);
 }

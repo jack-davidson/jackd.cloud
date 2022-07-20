@@ -4,14 +4,10 @@
     line-height: 1.1;
 
     /* CSS HEX */
-    --eton-blue: #86cb92;
-    --shiny-shamrock: #71b48d;
-    --purple-navy: #404e7c;
-    --space-cadet: #251f47;
-    --dark-purple: #260f26;
-    --pretty-pink: #FF247D;
+    --teal: #06D6A0;
     --smooth-grey: #334155;
-    --slate: #0F142A;
+    --light-grey: #6b7280;
+    --russian-violet: #0D0630;
 
     background-color: white;
     color: black;
@@ -23,7 +19,7 @@ body {
 
 header {
     font-weight: 700;
-    color: var(--slate);
+    color: var(--russian-violet);
     padding-left: 20vw;
     padding-right: 20vw;
     padding-bottom: 5vh;
@@ -37,7 +33,7 @@ h1 {
 }
 
 em {
-    color: var(--pretty-pink);
+    color: var(--teal);
     font-style: normal;
 }
 
